@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trang giới thiệu của tôi</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+      text-align: center;
+    }
+
+    h1 {
+      font-weight: 700;
+      margin-top: 50px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 40px;
+    }
+
+    .profile {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 50px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 20px;
+    }
+
+    .avatar img {
+      width: 100%;
+    }
+
+    .social-icons {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons li {
+      margin: 0 10px;
+    }
+
+    .social-icons a {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #333;
+      color: #fff;
+      font-size: 20px;
+      line-height: 40px;
+      text-align: center;
+      transition: all .3s ease-in-out;
+    }
+
+    .social-icons a:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="profile">
+    <header>
+		<h1>Bạn tên là...</h1>
+		<img src="avatar.jpg" alt="Ảnh đại diện của bạn">
+	</header>
+
+	<section>
+		<h2>Thông tin cá nhân</h2>
+		<ul>
+			<li>Tên: Tên của bạn</li>
+			<li>Tuổi: Tuổi của bạn</li>
+			<li>Trường học: Trường học của bạn</li>
+			<li>Địa chỉ: Địa chỉ của bạn</li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>Giới thiệu bản thân</h2>
+		<p>Mô tả ngắn gọn về bản thân của bạn</p>
+	</section>
+  </div>
+</body>
+</html>
